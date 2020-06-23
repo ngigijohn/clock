@@ -6,34 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>javaScript clock_face</title>
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body style="background-color: #091921;">
+<body>
 	<div class="navigation">
-		<ul class="nav nav-tabs" id="myTab" role="tablist">
-			<li class="nav-item">
-				<a class="nav-link active" id="home-tab" data-toggle="tab" href="index.html" role="tab"
-					aria-controls="home" aria-selected="true">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="profile-tab" data-toggle="tab" href="profile.html" role="tab"
-					aria-controls="profile" aria-selected="false">Profile</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-					aria-controls="contact" aria-selected="false">Contact</a>
-			</li>
+		<ul class="menu">
+			<li class="menu-item"><a href="index.html">Home</a></li>
+			<li class="menu-item"><a href="profile.html">Meet developer</a></li>
 		</ul>
-		<div class="tab-content" id="myTabContent">
-			<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-			<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-			<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-		</div>
 	</div>
-	<div class="clock">
+	<div class="clock" style="background-image: url(images/clock.png); background-size: cover;">
 		<div class="hour">
 			<div class="hr" id="hr"></div>
 		</div>
@@ -51,7 +34,7 @@
 	</div>
 	<div class="divider" id="div"></div>
 
-	<script src="app.js"></script>
+	<script src="js/app.js"></script>
 </body>
 
 </html>

@@ -59,7 +59,7 @@ li a:hover {
     height: 350px;
     width: 350px;
     display: flex;
-    background-image: url(images/clock.png);
+    background-image: url(clock.png);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -183,7 +183,7 @@ li a:hover {
 .card {
     display: flex;
     flex-direction: column;
-    height: 470px;
+    height: 450px;
     width: 300px;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
