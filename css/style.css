@@ -218,6 +218,22 @@ h2 {
     -o-border-radius: 20;
 }
 
+.social-icons a i {
+    transition: .6s ease-in-out;
+    margin: 20px 10px;
+    font-size: 2em;
+    color: #e0e0e0;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+}
+
+.social-icons a i:hover {
+    text-shadow: 0 0 2px white;
+}
+
+
 @media (min-width: 470px) {
 
     .clock,
