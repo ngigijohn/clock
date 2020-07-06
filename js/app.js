@@ -29,9 +29,6 @@ setInterval(() => {
     dmn.innerHTML = `${dmm}`;
     dsc.innerHTML = `${dss}`;
 
-    dsc.style.color = `#${dhh}${dmm}${dss*2}`;
-    dmn.style.color = `#${dss*2}${dhh}${dmm}`;
-    dhr.style.color = `#${dmm}${dss*2}${dhh}`;
 
     dv.style.width += `${dss}*5`;
 });
