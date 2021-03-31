@@ -48,7 +48,9 @@ li {
     -o-transition: all .6s ease-in-out;
 }
 
-li a:hover {
+li a:hover,
+li a:active,
+li a:focus {
     cursor: pointer;
     background-color: #f1fcff;
     color: #091920 !important;
@@ -183,7 +185,7 @@ li a:hover {
 .card {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    min-height: 450px;
     width: 300px;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -202,13 +204,18 @@ h2 {
     margin-top: 20px;
 }
 
+.card p {
+    font-size: .9em;
+    color: #f1fcffdc;
+}
+
 .card:hover {
-    box-shadow: 0 0 30px #f1fcff;
+    box-shadow: 0 0 5px #f1fcff;
 }
 
 .pic {
     position: relative;
-    height: 50%;
+    height: 10rem;
     align-self: center;
     clip-path: polygon(0% 20%, 100% 20%, 100% 100%, 0% 100%);
     border-radius: 20;
@@ -219,6 +226,7 @@ h2 {
 }
 
 .social-icons a i {
+    position: relative;
     transition: .6s ease-in-out;
     margin: 20px 10px;
     font-size: 2em;
